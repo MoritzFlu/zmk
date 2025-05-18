@@ -21,6 +21,11 @@
         ;
 };
 
+
+&left_encoder {
+    status = "disabled";
+};
+
 &right_encoder {
     status = "okay";
 };
